@@ -31,14 +31,15 @@ exports.getGetCalendarDetails = (events) => {
       const endTime = getTime(end.getHours(), end.getMinutes());
       const summary = event.summary ? event.summary : '';
       const location = event.location ? event.location : '';
+      const attendees = event.attendees ? event.attendees : '';
 
       start = moment(start).format('ddd MMM DD, YYYY');
       if (!end.getHours()) {
         const dayTime = 'All day'
         start = moment(event.start.date).format('ddd MMM DD, YYYY');
-        calendarEvents.push({ start, dayTime, summary, location });
+        calendarEvents.push({ start, dayTime, summary, location, attendees });
       } else
-        calendarEvents.push({ start, startTime, endTime, summary, location });
+        calendarEvents.push({ start, startTime, endTime, summary, location, attendees });
     });
     return calendarEvents;
   } catch (error) {

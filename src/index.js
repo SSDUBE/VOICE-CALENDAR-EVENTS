@@ -2,7 +2,8 @@ import fs from 'fs';
 import readline from 'readline';
 import { google } from 'googleapis';
 import express from 'express';
-import { groupByCalenderEvents, getGetCalendarDetails } from './helpers'
+import { groupByCalenderEvents, getGetCalendarDetails } from './helpers';
+import { passCalendarEvents } from './events-cron-jobs';
 
 const app = express();
 const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
@@ -95,6 +96,7 @@ app.get('/events', (req, res) => {
       try {
         if (events.length) {
           const calendarEvents = getGetCalendarDetails(events);
+          passCalendarEvents(events);
           res.send(groupByCalenderEvents(calendarEvents));
       } else {
         res.send();
