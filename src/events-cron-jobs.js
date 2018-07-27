@@ -18,7 +18,7 @@ function getRandomStr() {
   let text = "";
   const possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-  for (let i = 0; i < 6; i++)
+  for (var i = 0; i < 6; i++)
     text += possible.charAt(Math.floor(Math.random() * possible.length));
   return text;
 }
@@ -58,8 +58,8 @@ const activateGoogleTalkToSpeech = (speech) => {
 
 const setEventChroneJob = (startCronDate, eventSummary) => {
   try {
-    console.log('Chrone Job started');
-    console.log(startCronDate.year, startCronDate.month, startCronDate.day, startCronDate.hour, startCronDate.minutes)
+    console.log('Crone Jobs created');
+    console.log(startCronDate.year, startCronDate.month, startCronDate.day, startCronDate.hour, startCronDate.minutes);
     let date = new Date(startCronDate.year, startCronDate.month, startCronDate.day, startCronDate.hour, startCronDate.minutes, 0);
     let cron = schedule.scheduleJob(date, function (data) {
       activateGoogleTalkToSpeech(data);
