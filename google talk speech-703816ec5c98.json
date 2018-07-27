@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eternal-calling-211507",
+  "private_key_id": "703816ec5c98de1e7679464c7bf587c8b8b3ce36",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDP9LFoPY3JLevC\nE23xyvFzLHCBoszQHAFFEvi+jO02PkC/NRtDa2CAgUgnMkC72lVfehEPhwgTGWUA\nQe1KMeIgzLz3rk5zxofIAJZa0G1j6IGRURcmAxOlVOkCHFquX86Mj44R439W6p/2\nBIMiR10Pu/uQiU3kdgt0pqiJcnIsamCuVdRjylJDgAwd3JwJIBQguFR5RT3rmHKY\nVW3Zzhgt8R8MZ+uJAUaLIeyKp3DxRgQjvCOMAdrnSFEyUuMq9sQbvc4/sgZB7yiZ\nHVbQHC61gh/BB1m++x3oppUFC35YZ6NY2jPp1GW2X1g0CXvIdq4LaSlFNJ+c+qPB\nKvDNQ6RPAgMBAAECggEABYTAVScBBWbhu++Tui1rtTs81xaGFJBnBjln1CKy7tQT\nGB/lfnyx0xHbONMQEwwgZN1n6NS+sEcQaO6BngzvK8tTHnLdORxPy80cMFfEog3w\nVktjxQn4MlSBBHcn1Dsi+j7wWGWETRRX3176SJAX66F487p5EIguFfqQPBQx7HTF\nTGdmFAv++gPXiaJKU3hBwgErRz/BZR0S/3Bb9Nh6yE3nZUZkSv7EY7DODPPK2mbq\nvU5/pCH1wqZd1HRY3R7jNGabgBMA1hSHOtCvrpgQ2HSRAAgeTdjFTesNZxNqvqy8\ncj/0V+6K4IO1ZAQM5V0zTi27gyiKxhDC7LVUrgzMjQKBgQD0/6vnTE8Q5s8J7AXx\n1SA6JEhw4TyYPoTeMiy21zSjp/pc4DGvqpTiG8xFyH4+WzvkF+fznEtRbm5jf1tF\nINFbHeo5GG34ypes9GyOg7CxcmYg8dlC6yPKizmRo74LVadKRB3xQy7//yUMFvrA\nGsqRKIJmRQUVbJX30ZxsvBh9OwKBgQDZSzQGJdJ9lqon+pEexPOgDNXz+CX95A8f\ncvx5G7S3gVMFg3UTs2JNQfHdjSsqEbG8tFWUvzimem1fri6MbggFXs7QM6E9zt7I\n8dvQOv1YiIzaVs34HhdI9bKXEsZl30eaqMfy4xALjJoDiXPFs0z5YW+muv7BB1H0\nXHHgxQWT/QKBgQC2Z3f77+NZ6Q2yDGhsoUmqIANTD06G5t0TdPW3d0g4pEKRTVWQ\nvQa1xQ5z0g6zrEdNzcKiq/Wjff1v1I0GTaWxGfedZKPTvDnqydvcyw0NP+frlUQ1\nP03ZaYiF9wvx8mZns4k7a9KdQ7+4XY944Tl5k1hqfe6IAd0xsXyts+jjqwKBgEvr\nnKexO1Qp+hWx1FZ91elL0s1FHHES573DPTdLWN7szocUoSla+bOooMsZ8cTnHcSi\n9WvdS/vOtrxBbX4fS6okr/nKsEGaL/jhmD2u/qmaPCxlO92/Fb+mKNnj83HQi4Ic\nCpBwiUCfxYgK1Gp09SYExy/oEe57kkTgr+EqtYI5AoGAN06V75A4Gh37C3ySTFSA\nXDx0GtAVe1PMZWA3IikeePhjVrD/+mkJN5mBwBTM2hrh9QMHN8yDxVfTbm0cldbe\n9+d1eKs1TjPZunI/uaCeDQFxUDQ7fH9cUQAqyiKQPDrc512uaI6kbeuq8vY2koX2\n1GbRNGDjpj0pjlAU9OFurQQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-talk-speech@eternal-calling-211507.iam.gserviceaccount.com",
+  "client_id": "104788028329382208418",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-talk-speech%40eternal-calling-211507.iam.gserviceaccount.com"
+}
