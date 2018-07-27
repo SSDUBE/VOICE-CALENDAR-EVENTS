@@ -1,6 +1,7 @@
 import moment from 'moment';
 import underscore from 'underscore';
 
+
 const getTime = (hours, min) => {
   try {
     let evaluateTime = hours < 12 ? `${hours}:${min}am` : `${hours}:${min}pm`;
@@ -9,6 +10,7 @@ const getTime = (hours, min) => {
     console.log('Error on getTime: ', error);
   }
 }
+
 
 exports.groupByCalenderEvents = (listEvents) => {
   try {
@@ -20,6 +22,7 @@ exports.groupByCalenderEvents = (listEvents) => {
     console.log('Error on groupByCalenderEvents: ', error);
   }
 };
+
 
 exports.getGetCalendarDetails = (events) => {
   const calendarEvents = [];

@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "calendar-1532680851442",
+  "private_key_id": "6e9bf2fc0f795ee21d8f7f4b2df6fe27ee2a7214",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMDvPcigsYGnjC\nOCHVbm+0gxJUFNO/zlNSX2dxUkPlgOOCmn8izp1tqoY3N73wbZ3V3JkU9FL7aPT8\n6gvLarA7EOwkoWWvzIAdm5WYSvg+fvvsjrEOrsNorJRMDwaEPAqBVliWCdMys3/t\nA34trzZDl/Tw8oeK8BsSuQ4YnRUFVuMTfRsl+FHnBsUC2HUwlGT8XpsyJGSqAbLB\nUrmGVCNQhFVjjySkdDs9wyTF/hw69ZLyDVDnb+qBTOiPrVaJwu1qgXNfNPgAUNzN\n4zHg7CVGzgyVVB6umd4xyew8y2PV62RvkDHahvx5i0TH77jBkBA82g6mkteona6h\nbJXllwMhAgMBAAECggEAKnIkyzfiuWOOQXYcIZGMhluqVReU+UWhgtWqBoIycduW\n14ysC/E3AYASVYuQhKHEjl8J77gnx7iMF0zW4bwCRvMM78yrwn7zGlWJ70kO7K8M\n16bR0ShMqOoXGeAZPqnflIpBuIn4Jsh8QHC0zytuSe6iqnkEdUPfGcypEDkijX6n\nYVg2yJnFg+dnxFhl5vY0yfd5qNWxnJJrqvuOhqkYHoJiU1Nw5hn9grwACY9OlZLw\n1Hn+X3pbr8OY39ZBMVm27SkZbEWuErsazG2NQbxAarsuEwuaO/Hdp3sTfzZ8wKTe\nMx7soSRZbLeXqXjzvp86MPgJUaMiVNDKk7zxkoYKbQKBgQDvtNvyE5KlF84YFtnJ\nK6xQZ+aqYAid4ATvu313MHtmD8+Mf5Fu/8ofGHU0W8fi6GhrfOBEKg2sJCqec49Z\nGdBqPaUO5tozmVX9zlztbCVtfNhR2lZwedH9wWtJpFE63iYBEWVOrI4+ERCVaGjE\nhxs31kll8cBIYXvthN5oCJHU7QKBgQDZ7ceyfZwxZ5h9+qJ3lNmprWDrg7kYCTrO\nzI2Jio1lugJSVbdjKkFz1bDQmPI+9VnKaf3gA3BtlNAjXrgZaoDOGK19h0b4615a\nLt1MxklMrbNLACQq4QnkdeVQV8ZCBD4j2lArHbDPQGsqnlYJDFS/Afw0o7TRrAUM\nR1QwP7h0hQKBgFSyzkjSO63UJIGEiX24zdE3dVzcRA8s2fGviRy1Z9TfX1HgvY3A\nGjY0mS1gBNgbkNHyNPhA98XMnbaRVKSCJ49yqsECNzWmR6k/4rwNy4fNZk493O8v\nTFDiqDtEMWOgnUMhV2+eL0ClHPv+AY73wllPgW3hJzUsJPL/UOrnpEfdAoGBAIT1\nPVD4scKyoaa6s0Sh2+pZjTgjNVokx2xEAFZZ4cqeoav5/9jQfv5c8XNS3PjsV8vW\nvr1dW8p/cD0kHM3k3JDhHXfogLR9ZSNAVGPy1eWiVDD99RL0GUT5aN6Lrrm4PPFC\n0IZ9ptHLS5bE41jB3TJr06OJ/Veuy6WiHwsQ1UjBAoGBALKETgI+NUjB/oSIGoln\n5VMzfkom2EB5hSkNzIIDAWFUkMICrWeTzOLWYWcBxOoUnAcKUcgXVjdDrnrIlanB\nfBx6jD8N6axmRpV+0m3vT2HYit+jqk7Yf8R/dEkvf0KlJYjh+oj/VehYxrvHUJXY\nydtkoQocF43XJ/Cw/vgySjSi\n-----END PRIVATE KEY-----\n",
+  "client_email": "sindiso-calendar@calendar-1532680851442.iam.gserviceaccount.com",
+  "client_id": "104830026629154975411",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sindiso-calendar%40calendar-1532680851442.iam.gserviceaccount.com"
+}

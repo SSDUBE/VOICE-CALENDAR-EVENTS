@@ -5,15 +5,18 @@ import express from 'express';
 import { groupByCalenderEvents, getGetCalendarDetails } from './helpers';
 import { passCalendarEvents } from './events-cron-jobs';
 
+
 const app = express();
 const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 const TOKEN_PATH = __dirname + '/../auth/credentials.json';
+
 
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
+
 
 app.get('/events', (req, res) => {
   try {
@@ -91,7 +94,7 @@ app.get('/events', (req, res) => {
       singleEvents: true,
       orderBy: 'startTime',
     }, (error, response) => {
-      if (error) return console.log('The API returned an error: ' + err);
+      if (error) return console.log('The API returned an error: ' + error);
       const events = response.data.items;
       try {
         if (events.length) {
@@ -106,6 +109,7 @@ app.get('/events', (req, res) => {
     });
   }
 });
+
 
 app.listen(3001, () => {
   console.log('App listening on port 3001!')
