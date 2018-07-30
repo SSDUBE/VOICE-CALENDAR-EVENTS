@@ -1,2 +1,2 @@
 cd ..
-nodemon start
+node start

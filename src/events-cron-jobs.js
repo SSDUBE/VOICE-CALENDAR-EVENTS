@@ -73,7 +73,7 @@ const setEventChroneJob = (startCronDate, eventSummary) => {
 const getEventStartTime = (start) => {
   try {
     const startDate = new Date(start);
-    const time = moment(startDate).subtract('1', 'minutes').toDate();
+    const time = moment(startDate).subtract('5', 'minutes').toDate();
     const hour = time.getHours();
     const minutes = time.getMinutes();
     const year = startDate.getFullYear();
